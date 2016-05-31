@@ -1,0 +1,85 @@
+*
+  margin: 0
+  padding: 0
+
+.home
+  width: 100%
+  overflow: hidden
+  text-align: center
+
+  img
+    max-width: 100%
+
+.download-button
+  background-color: #583330
+  border: none
+  display: block
+  width: 135px
+  margin: 0 auto
+  font-size: 18px
+  margin-top: 20px
+  line-height: 35px
+  position: relative
+  cursor: pointer
+  color: #fff
+
+.download-button:before
+    content: " "
+    display: block
+    position: absolute
+    background-image: url('../image/download_arrow.png')
+    background-size: cover
+    top: 50%
+    left: 15px
+    width: 13px
+    height: 15px
+    margin-top: -7px
+
+.android-guide
+  display: none
+  margin-top: 10px
+  margin-bottom: 20px
+  width: 80%
+  margin-left: auto
+  margin-right: auto
+
+.iphone-guide
+  display: none
+  margin-top: 25px
+
+  .guide-image-wrap
+    width: 80%
+    margin: 0 auto
+
+  .guide-image-wrap:first-child
+    width: 90%
+
+.wechat-mask
+  display: none
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  background-color: rgba(0,0,0,.8)
+
+  .inner-wrap
+    position: relative
+    height: 100%
+    width: 100%
+
+    .wechat-arrow-wrap
+      overflow: hidden
+
+      .wechat-arrow
+        float: right
+        width: 12%
+        margin-right: 25px
+        margin-top: 20px
+
+    .wechat-note-wrap
+      width: 40%
+      margin: 0 auto
+
+      .wechat-note
+        width: 100%

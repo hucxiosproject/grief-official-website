@@ -1,0 +1,9 @@
+<script>
+  var a = navigator.userAgent
+      ,b = a.toLowerCase().indexOf("android") > -1
+      ,c = a.toLowerCase().indexOf("iphone") > -1
+      ,d = a.toLowerCase().indexOf("ipad") > -1;
+  if (b || c || d) {
+    window.location.href = "/mobile.html";
+  }
+</script>
